@@ -44,6 +44,19 @@ body {
     margin-bottom: 60px;
 }
 
+hr.row-item {
+    width: 60%;
+    border-top-color: rgba(0,0,0,.07);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar-dark {
     background-color: #003e74; 
 }
@@ -86,8 +99,4 @@ body {
 :target{
     padding-top: 50px;
     margin-top: -50px;
-}
-
-.btn-group-sm {
-    margin-bottom: 30px;
 }
