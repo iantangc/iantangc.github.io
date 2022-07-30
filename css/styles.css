@@ -108,9 +108,9 @@ hr.row-item {
     margin-top: -50px;
 }
 
-a:not([class*="btn"]) {
+a:not([class*="btn"]):not(.nav-link) {
     text-decoration: none;
 }
-a:not([class*="btn"]):hover {
+a:not([class*="btn"]):not(.nav-link):hover {
     text-decoration: underline;
 }
