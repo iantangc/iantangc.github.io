@@ -9,6 +9,10 @@ html {
     margin-top: 40px;
     padding: 0px 0px; 
 }
+
+.row-header * {
+    padding-bottom: 1px;
+}
   
 .row-content {
     margin: 0px auto;
@@ -113,4 +117,12 @@ a:not([class*="btn"]):not(.nav-link) {
 }
 a:not([class*="btn"]):not(.nav-link):hover {
     text-decoration: underline;
+}
+
+#more_news_btn[aria-expanded="false"]:after  {
+    content: '▼ Read More';
+}
+
+#more_news_btn[aria-expanded="true"]:after {
+    content: '▲ Read Less';
 }
