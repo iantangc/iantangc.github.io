@@ -27,12 +27,18 @@ html {
     bottom: 0;
     width: 100%;
     background-color: #ebf5ff;
+    box-shadow: 0px -2px 6px #00000018;
 }
 
 .jumbotron {
     margin: 0px auto;
     padding: 40px 0px;
     background: #D6EBFF;
+    box-shadow: 0px 2px 4px #00000020;
+}
+
+#profile_photo {
+    box-shadow: 2px 2px 4px #00000030;
 }
 
 address {
@@ -44,7 +50,7 @@ address {
 body {
     position: relative;
     padding: 50px 0px 0px 0px;
-    z-index: 0; 
+    z-index: 0;
     margin-bottom: 60px;
 }
 
@@ -69,7 +75,8 @@ hr.row-item {
 }
 
 .navbar-dark {
-    background-color: #003e74; 
+    background-color: #003e74;
+    box-shadow: 0px 2px 4px #00000060;
 }
 
 .navbar-nav > li{
@@ -104,6 +111,10 @@ hr.row-item {
 @media (max-width: 767px) {
     .col-12 {
         margin-top:10px;
+    }
+    
+    #main_content {
+        margin: 0px 5px 0px 5px;
     }
 }
 
