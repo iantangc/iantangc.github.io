@@ -115,8 +115,13 @@ hr.row-item {
 a:not([class*="btn"]):not(.nav-link) {
     text-decoration: none;
 }
+
 a:not([class*="btn"]):not(.nav-link):hover {
     text-decoration: underline;
+}
+
+#more_news_btn:hover{
+    text-decoration: none;
 }
 
 #more_news_btn[aria-expanded="false"]:after  {
