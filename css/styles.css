@@ -149,6 +149,7 @@ hr.row-item {
     border-top: 50px solid transparent;
     margin: -50px 0 0;
     background-clip: padding-box;
+    z-index: -1;
 }
 
 a:not([class^="btn"]):not(.nav-link) {
