@@ -60,13 +60,15 @@ h2 {
     font-size: 2rem;
 }
 
-hr {
-    opacity: 0.15;
+.hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-top: 1px solid #333;
+    opacity: 0.5;
 }
 
-hr.row-item {
+.hr.row-item {
     width: 60%;
-    opacity: 0.25;
     margin: 1rem auto;
 }
 
