@@ -186,3 +186,8 @@ a:not([class^="btn"]):not([class^="navbar-brand"]):not(.nav-link):hover {
     box-shadow: 2px 2px 4px #00000030;
 }
 
+.btn-inline-link {
+    padding: .1rem .5rem;
+    font-size: 14px;
+}
+
